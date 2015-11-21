@@ -1,0 +1,21 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- This is just a test for STAT 545 -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+
+```{r}
+library(foofactors)
+fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
+```

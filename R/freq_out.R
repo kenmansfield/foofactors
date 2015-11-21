@@ -1,6 +1,5 @@
 #' Make a frequency table for a factor
 #'
-#' @importFrom dplyr %>%
 #' @param x factor
 #'
 #' @return tbl_df
